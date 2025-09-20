@@ -1,0 +1,11 @@
+/home/purushoth/.local/bin/cursor: ignoring input
+
+> retreivo-frontend@0.1.0 dev
+> vite --host --port 5173
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  VITE v5.4.20  ready in 297 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.16.23.165:5173/
