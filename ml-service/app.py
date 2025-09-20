@@ -1359,14 +1359,31 @@ def compare_items():
         # Prepare vector for classifier
         # The fraud model expects 5 features, but we have 6
         # Combine location_similarity and location_proximity into one feature
-        x_vec = np.array([
-            feats['text_similarity'],
-            feats['category_similarity'],
-            # Combine location features with weighted average
-            (feats['location_similarity'] * 0.5 + feats['location_proximity'] * 0.5),
-            feats['time_similarity'],
-            feats['image_similarity']
-        ]).reshape(1, -1)
+        try:
+            x_vec = np.array([
+                feats['text_similarity'],
+                feats['category_similarity'],
+                # Combine location features with weighted average
+                (feats['location_similarity'] * 0.5 + feats['location_proximity'] * 0.5),
+                feats['time_similarity'],
+                feats['image_similarity']
+            ]).reshape(1, -1)
+            
+            # Ensure we have exactly 5 features
+            if x_vec.shape[1] != 5:
+                logger.warning(f"Expected 5 features, got {x_vec.shape[1]}. Reshaping to 5 features.")
+                # Force reshape to 5 features if needed
+                x_vec = np.array([
+                    feats['text_similarity'],
+                    feats['category_similarity'],
+                    (feats['location_similarity'] * 0.5 + feats['location_proximity'] * 0.5),
+                    feats['time_similarity'],
+                    feats.get('image_similarity', 0.0)  # Default to 0 if missing
+                ]).reshape(1, 5)
+        except Exception as e:
+            logger.warning(f"Error creating feature vector: {e}. Using default features.")
+            # Fallback to default feature vector
+            x_vec = np.array([0.5, 0.5, 0.5, 0.5, 0.5]).reshape(1, 5)
 
         fraud_prob = 0.5
         feature_importance = None
