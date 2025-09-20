@@ -29,6 +29,9 @@ try:
 except Exception:
     cosine_similarity = None
 import pickle
+import warnings
+# Suppress scikit-learn version warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 try:
     from transformers import AutoTokenizer, AutoModel
 except Exception:
@@ -38,7 +41,7 @@ except Exception:
 app = Flask(__name__)
 
 # Set port for the ML service
-PORT = 5002
+PORT = 8000
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, 
@@ -1354,11 +1357,13 @@ def compare_items():
         match_score = compute_match_score(feats)
 
         # Prepare vector for classifier
+        # The fraud model expects 5 features, but we have 6
+        # Combine location_similarity and location_proximity into one feature
         x_vec = np.array([
             feats['text_similarity'],
             feats['category_similarity'],
-            feats['location_similarity'],
-            feats['location_proximity'],
+            # Combine location features with weighted average
+            (feats['location_similarity'] * 0.5 + feats['location_proximity'] * 0.5),
             feats['time_similarity'],
             feats['image_similarity']
         ]).reshape(1, -1)

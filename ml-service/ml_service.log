@@ -2166,3 +2166,446 @@ NameError: name 'item_database' is not defined. Did you mean: 'init_database'?
 2025-09-20 09:10:42,064 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 09:10:42] "GET /health HTTP/1.1" 200 -
 2025-09-20 10:29:38,817 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:29:38] "GET /health HTTP/1.1" 200 -
 2025-09-20 10:29:39,012 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:29:39] "GET /health HTTP/1.1" 200 -
+2025-09-20 17:52:36,179 - __main__ - INFO - ResNet50 model loaded successfully
+2025-09-20 17:52:36,180 - __main__ - ERROR - Failed to load BERT model: Transformers/Torch unavailable
+2025-09-20 17:52:37,274 - __main__ - INFO - Loaded fraud model from disk
+2025-09-20 17:52:37,311 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.16.23.165:5002
+2025-09-20 17:52:37,311 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-20 18:08:16,562 - __main__ - INFO - ResNet50 model loaded successfully
+2025-09-20 18:08:16,563 - __main__ - ERROR - Failed to load BERT model: Transformers/Torch unavailable
+2025-09-20 18:08:18,157 - __main__ - INFO - Loaded fraud model from disk
+2025-09-20 18:08:18,207 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.16.23.165:5002
+2025-09-20 18:08:18,207 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-20 18:09:11,216 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:09:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-20 18:09:11,252 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:09:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-20 18:09:21,085 - werkzeug - INFO - 10.16.23.165 - - [20/Sep/2025 18:09:21] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-20 18:09:21,135 - werkzeug - INFO - 10.16.23.165 - - [20/Sep/2025 18:09:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-20 18:10:59,759 - werkzeug - INFO - 10.16.23.165 - - [20/Sep/2025 18:10:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-20 18:14:38,258 - __main__ - INFO - ResNet50 model loaded successfully
+2025-09-20 18:14:38,259 - __main__ - ERROR - Failed to load BERT model: Transformers/Torch unavailable
+2025-09-20 18:14:38,457 - __main__ - INFO - Loaded fraud model from disk
+2025-09-20 18:14:38,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.16.23.165:8000
+2025-09-20 18:14:38,473 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-20 18:15:23,754 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:15:23] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:15:23,784 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:15:23] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:16:26,623 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:16:26] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:16:26,680 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:16:26] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:17:19,320 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:19,321 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:19] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,737 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,740 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,751 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,753 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,777 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,778 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,781 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,782 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,917 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,919 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,921 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,922 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,926 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,928 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,959 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,961 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,962 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,964 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,966 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,969 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,972 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,975 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,981 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,982 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,987 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,989 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:20,992 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:20,994 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:20] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,119 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,122 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,168 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,170 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,255 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,259 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,265 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,266 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,268 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,269 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,301 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,302 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,319 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,319 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,321 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,321 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,322 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,323 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,323 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,325 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,327 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,329 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,333 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,334 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,336 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,340 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,341 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,342 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:22,653 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:22,653 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:45,350 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:45,351 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:45] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,217 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,218 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,225 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,226 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,249 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,252 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,255 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,256 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,387 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,389 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,406 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,407 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,409 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,412 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,414 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,415 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,419 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,421 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,424 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,426 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,428 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,430 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,434 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,437 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,439 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,441 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:46,444 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:46,448 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:46] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:47,328 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:47,331 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:47] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:47,482 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:47,484 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:47] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:47,734 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:47,735 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:47] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:47,744 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:47,745 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:47] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:47,762 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:47,762 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:47] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,758 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,760 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,773 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,774 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,775 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,777 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,777 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,778 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,779 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,780 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,781 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,782 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,784 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,785 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,789 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:48,791 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,797 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:48,798 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:48] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:49,135 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:49,136 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:49] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:52,518 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:52,520 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:52] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,461 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,464 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,506 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,507 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,508 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,508 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,511 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,511 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,596 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,637 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,663 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,664 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,666 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,667 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,670 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,671 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,676 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,678 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,682 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,684 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,685 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,687 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,689 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,690 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,697 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,699 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:53,701 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:53,706 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,784 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,789 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,803 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,810 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,830 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,832 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,842 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,843 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,845 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,846 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,897 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,897 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,898 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,899 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,900 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,900 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,901 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,902 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,902 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,904 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,906 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,910 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,912 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,915 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,917 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,919 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:54,920 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:54,921 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:17:55,229 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:17:55,230 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:17:55] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:18:55,723 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:18:55,723 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:18:55,724 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:18:55] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:18:56,919 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:18:56,920 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:18:56,920 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:18:56] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:08,269 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:08,271 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:08,271 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:08] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:09,939 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:09,939 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:09,940 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:09] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:10,269 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:10,269 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:10,271 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:10] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:10,471 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:10,471 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:10,472 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:10] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:10,706 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:10,707 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:10,707 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:10] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:11,177 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:11,178 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:11,179 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:11] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:11,492 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:11,493 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:11,493 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:11] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:11,709 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:11,709 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:11,710 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:11] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:12,034 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:12,034 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:12,036 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:12] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:12,347 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:12,347 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:12,348 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:12] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:12,559 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:12,560 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:12,561 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:12] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:12,887 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:12,888 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:12,888 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:12] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:13,105 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:13,106 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:13,106 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:13] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:13,457 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:13,458 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:13,459 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:13] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:13,828 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:13,828 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:13,829 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:13] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:14,050 - __main__ - ERROR - Error processing stored features for item 8: invalid load key, '8'.
+2025-09-20 18:19:14,050 - __main__ - ERROR - Error processing stored features for item 7: unpickling stack underflow
+2025-09-20 18:19:14,051 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:14] "POST /search-by-image HTTP/1.1" 200 -
+2025-09-20 18:19:20,778 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:20] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:19:20,799 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:19:20] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:21:36,253 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:36,255 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,321 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,323 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,405 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,412 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,460 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,461 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,464 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,465 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,497 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,498 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,566 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,617 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,638 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,639 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,643 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,644 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,647 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,648 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,650 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,653 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,655 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,656 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,658 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,660 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,664 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,667 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,667 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,670 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:37,672 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:37,675 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:37] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,137 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,144 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,174 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,175 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,188 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,190 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,194 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,199 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,204 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,205 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,210 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,212 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,259 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,260 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,261 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,263 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,264 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,267 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,288 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,289 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,289 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,290 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,291 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,292 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,292 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,293 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,294 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,295 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,296 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,301 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:39,666 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:39,666 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:39] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:41,275 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:41,276 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:41] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,438 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,439 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,439 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,442 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,445 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,448 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,464 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,465 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,468 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,469 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:42,579 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:42,580 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:43,675 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:43,678 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:43,683 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:43,691 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:43,759 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:43,762 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:43,777 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:43,778 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:21:43,778 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:21:43,779 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:21:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:33,363 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:33] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:33,383 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:33] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:33,783 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:33,784 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:33] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,819 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,820 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,838 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,841 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,850 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,852 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,878 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,880 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,892 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,893 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:34,983 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:34,984 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:34] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:36,014 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:36,016 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:36,017 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:36,019 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:36,051 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:36,052 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:36,056 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:36,057 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:36,058 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:36,060 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:36] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:49,898 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:49] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:49,921 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:49] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:50,245 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:50,247 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:50] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:50,293 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:50] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:50,364 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:50,367 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:50] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:50,442 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:50,448 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:50] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:50,478 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:50] "GET /health HTTP/1.1" 200 -
+2025-09-20 18:28:53,121 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,123 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,192 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,195 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,230 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,231 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,233 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,235 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,262 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,263 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,264 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,265 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,455 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,457 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,514 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,517 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,518 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,521 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,527 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,527 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,529 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,530 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,533 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,533 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,535 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,536 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,537 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,537 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,538 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,539 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:53,614 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:53,616 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:53] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:54,614 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:54,616 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:54,659 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:54,660 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:54,718 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:54,719 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:54,722 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:54,723 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:28:54,734 - __main__ - ERROR - Fraud model inference error: X has 6 features, but RandomForestClassifier is expecting 5 features as input.
+2025-09-20 18:28:54,735 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 18:28:54] "POST /compare-items HTTP/1.1" 200 -
+2025-09-20 18:31:31,864 - __main__ - INFO - ResNet50 model loaded successfully
+2025-09-20 18:31:31,866 - __main__ - ERROR - Failed to load BERT model: Transformers/Torch unavailable
+2025-09-20 18:31:32,020 - __main__ - INFO - Loaded fraud model from disk
+2025-09-20 18:31:32,039 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.16.23.165:8000
+2025-09-20 18:31:32,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

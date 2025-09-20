@@ -503,7 +503,7 @@ app.post('/api/user/report-lost', authenticateToken, async (req, res) => {
     
     // Store item in ML service for future matching
     try {
-      const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:5002'}/store-item`, {
+      const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:8000'}/store-item`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -729,7 +729,7 @@ app.post('/api/user/search-by-image', authenticateToken, async (req, res) => {
     
     // Call ML service for image similarity search
     try {
-      const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:5002'}/search-by-image`, {
+      const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:8000'}/search-by-image`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -806,7 +806,7 @@ app.post('/api/user/search', authenticateToken, async (req, res) => {
     if (images && images.length > 0) {
       try {
         // Call ML service for image matching
-        const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:5002'}/match-item`, {
+        const mlResponse = await fetch(`${process.env.ML_SERVICE_URL || 'http://localhost:8000'}/match-item`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -832,10 +832,16 @@ app.post('/api/user/search', authenticateToken, async (req, res) => {
           if (mlResults.length > 0) {
             const itemIds = mlResults.map(r => r.item_id);
             const dbResults = await pool.query(`
-              SELECT 'found' as type, item_id, name, category, description, location, date_found as date, status, created_at
-              FROM found_items 
-              WHERE item_id = ANY($1) AND status IN ('available', 'pending_claim')
-            `, [itemIds]);
+              SELECT 'found' as type, f.item_id, f.name, f.category, f.description, f.location, f.date_found as date, 
+                     CASE 
+                       WHEN c.claim_id IS NOT NULL AND c.user_id != $2 THEN 'claimed' 
+                       ELSE f.status 
+                     END as status, 
+                     f.created_at
+              FROM found_items f
+              LEFT JOIN claims c ON f.item_id = c.item_id AND c.item_type = 'found' AND c.status = 'pending'
+              WHERE f.item_id = ANY($1) AND f.status IN ('available', 'pending_claim')
+            `, [itemIds, userId]);
             
             // Combine ML scores with database results
             const enhancedResults = dbResults.rows.map(dbItem => {
@@ -880,12 +886,18 @@ app.post('/api/user/search', authenticateToken, async (req, res) => {
         AND ($3::text IS NULL OR location ILIKE $3)
         AND status IN ('active', 'pending_claim')
       UNION ALL
-      SELECT 'found' as type, item_id, name, category, description, location, date_found as date, status, created_at, image_url
-      FROM found_items 
-      WHERE (name ILIKE $1 OR description ILIKE $1 OR $1 IS NULL) 
-        AND ($2::text IS NULL OR category = $2)
-        AND ($3::text IS NULL OR location ILIKE $3)
-        AND status IN ('available', 'pending_claim')
+      SELECT 'found' as type, f.item_id, f.name, f.category, f.description, f.location, f.date_found as date, 
+        CASE 
+          WHEN c.claim_id IS NOT NULL AND c.user_id != $4 THEN 'claimed' 
+          ELSE f.status 
+        END as status, 
+        f.created_at, f.image_url
+      FROM found_items f
+      LEFT JOIN claims c ON f.item_id = c.item_id AND c.item_type = 'found' AND c.status = 'pending'
+      WHERE (f.name ILIKE $1 OR f.description ILIKE $1 OR $1 IS NULL) 
+        AND ($2::text IS NULL OR f.category = $2)
+        AND ($3::text IS NULL OR f.location ILIKE $3)
+        AND f.status IN ('available', 'pending_claim')
       ORDER BY created_at DESC
       LIMIT 20
     `;
@@ -893,7 +905,8 @@ app.post('/api/user/search', authenticateToken, async (req, res) => {
     const result = await pool.query(searchQuery, [
       query ? `%${query}%` : null, 
       category || null, 
-      location ? `%${location}%` : null
+      location ? `%${location}%` : null,
+      userId
     ]);
     
     res.json({ 
@@ -1780,7 +1793,7 @@ app.get('/api/chat/history', authenticateToken, async (req, res) => {
 });
 
 // ML endpoints proxy (stubs)
-const mlServiceBaseUrl = process.env.ML_BASE_URL || 'http://localhost:5002';
+const mlServiceBaseUrl = process.env.ML_BASE_URL || 'http://localhost:8000';
 
 app.get('/api/ml/health', async (_req, res) => {
   try {
