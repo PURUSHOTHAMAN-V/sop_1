@@ -2609,3 +2609,55 @@ NameError: name 'item_database' is not defined. Did you mean: 'init_database'?
  * Running on http://127.0.0.1:8000
  * Running on http://10.16.23.165:8000
 2025-09-20 18:31:32,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-22 20:05:21,149 - __main__ - INFO - ResNet50 model loaded successfully
+2025-09-22 20:05:21,151 - __main__ - ERROR - Failed to load BERT model: Transformers/Torch unavailable
+2025-09-22 20:05:22,763 - __main__ - INFO - Loaded fraud model from disk
+2025-09-22 20:05:22,822 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.16.23.165:8000
+2025-09-22 20:05:22,822 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-22 20:05:53,807 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:05:53] "GET /health HTTP/1.1" 200 -
+2025-09-22 20:05:53,834 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:05:53] "GET /health HTTP/1.1" 200 -
+2025-09-22 20:08:22,636 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:22] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:23,978 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:23] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:23,980 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:23] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:23,982 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:23] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:23,983 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:23] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,562 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,565 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,567 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,570 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,574 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,578 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,582 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,585 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,586 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:24,591 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:24] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,610 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,807 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,809 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,810 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,811 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:25,813 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:25] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,168 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,169 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,171 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,173 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,180 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,183 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,185 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,188 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,190 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,559 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:26,562 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:26] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:41,114 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:41] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:41,840 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:41] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:41,971 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:41] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:42,003 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:42,006 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:42,200 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:42,874 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:42] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:43,002 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:43,010 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:43] "POST /compare-items HTTP/1.1" 200 -
+2025-09-22 20:08:43,013 - werkzeug - INFO - 127.0.0.1 - - [22/Sep/2025 20:08:43] "POST /compare-items HTTP/1.1" 200 -
